@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-container {
+  .table {
+    width: 50%;
+    max-width: 50%;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid #F6F9FB;
+    table-layout: fixed;
+    background-color: #FFFFFF;
+    border-spacing: 0;
+    tr {
+      &:hover {
+        background-color: #E8F6FA;
+      }
+      th {
+        background-color: #F6F9FB;
+        padding: 10px 24px;
+        font-weight: 400;
+        border-bottom: none;
+        position: relative;
+        border: none;
+        text-align: left;
+      }
+      td {
+        border: none;
+        padding: 8px 24px;
+        line-height: 1.42857;
+        vertical-align: top;
+        border-top: 1px solid #F6F9FB;
+        cursor: pointer;
+        text-align: left;
+      }
+    }
+  }
+}
